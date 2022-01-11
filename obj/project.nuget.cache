@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TaZtgWC8CMp+G/u739LJt80G4kWLTOSfZ5hLJROdxVgpy1EaJtUuFFpH56kkoZcdlEkN6MkjwXuix+cadzELQg==",
+  "dgSpecHash": "nKgN95tAzN5XYz2//m2Jgr1GSSZhR2EIPqYiSpGLnOkfebhgJEZC359SRwMHnmGNcOtYter5kqNpZCH466D/Iw==",
   "success": true,
   "projectFilePath": "/Users/amir/projects/handlemycase/hmc-backend/Api.Database.MySql/Api.Database.MySql.csproj",
   "expectedPackageFiles": [
