@@ -8,7 +8,7 @@ using Amazon.SQS.Model;
 namespace Api.Database.MySql
 {
     public class AWSHelper
-    {s
+    {
         private static readonly IAmazonSQS sqsClient;
         private static readonly IAmazonPinpoint pinpointClient;
 
