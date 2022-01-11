@@ -22,8 +22,6 @@
 /Users/amir/projects/handlemycase/hmc-backend/Api.Database.MySql/bin/Debug/net5.0/Api.Database.MySql.dll
 /Users/amir/projects/handlemycase/hmc-backend/Api.Database.MySql/bin/Debug/net5.0/ref/Api.Database.MySql.dll
 /Users/amir/projects/handlemycase/hmc-backend/Api.Database.MySql/bin/Debug/net5.0/Api.Database.MySql.pdb
-/Users/amir/projects/handlemycase/hmc-backend/Api.Database.MySql/bin/Debug/net5.0/Api.Database.Models.dll
-/Users/amir/projects/handlemycase/hmc-backend/Api.Database.MySql/bin/Debug/net5.0/Api.Database.Models.pdb
 /Users/amir/projects/handlemycase/hmc-backend/Api.Database.MySql/obj/Debug/net5.0/Api.Database.MySql.csproj.AssemblyReference.cache
 /Users/amir/projects/handlemycase/hmc-backend/Api.Database.MySql/obj/Debug/net5.0/Api.Database.MySql.GeneratedMSBuildEditorConfig.editorconfig
 /Users/amir/projects/handlemycase/hmc-backend/Api.Database.MySql/obj/Debug/net5.0/Api.Database.MySql.AssemblyInfoInputs.cache

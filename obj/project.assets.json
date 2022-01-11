@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Api.Database.Models/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "HotChocolate.Abstractions": "12.0.1"
+        },
+        "compile": {
+          "lib/net5.0/Api.Database.Models.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Api.Database.Models.dll": {}
+        }
+      },
       "AWSSDK.Core/3.7.5.8": {
         "type": "package",
         "compile": {
@@ -622,23 +634,21 @@
             "rid": "win"
           }
         }
-      },
-      "Api.Database.Models/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "HotChocolate.Abstractions": "12.0.1"
-        },
-        "compile": {
-          "bin/placeholder/Api.Database.Models.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Api.Database.Models.dll": {}
-        }
       }
     }
   },
   "libraries": {
+    "Api.Database.Models/1.0.0": {
+      "sha512": "s3bD6LAmy7qpUJyFjSjoMreXIoNdIbTgp68LDdYc0N2ukpzs16v1hnD5MQa/vbqARGaP++SayL24LCjQ88HMeA==",
+      "type": "package",
+      "path": "api.database.models/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "api.database.models.1.0.0.nupkg.sha512",
+        "api.database.models.nuspec",
+        "lib/net5.0/Api.Database.Models.dll"
+      ]
+    },
     "AWSSDK.Core/3.7.5.8": {
       "sha512": "z2HE98YAHOBTSjoNYi9mPUGNbcDV/V9XqRCXcZp6MerQm7jCZzyi9JCyX/89YM+bJwlhZgMjRPhS3S0N7+Z3EQ==",
       "type": "package",
@@ -1892,11 +1902,6 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "Api.Database.Models/1.0.0": {
-      "type": "project",
-      "path": "../Api.Database.Models/Api.Database.Models.csproj",
-      "msbuildProject": "../Api.Database.Models/Api.Database.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1904,10 +1909,10 @@
       "AWSSDK.Core >= 3.7.5.8",
       "AWSSDK.Pinpoint >= 3.7.4.6",
       "AWSSDK.SQS >= 3.7.2.6",
-      "Api.Database.Models >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.11",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.11",
-      "MySql.EntityFrameworkCore >= 5.0.8"
+      "MySql.EntityFrameworkCore >= 5.0.8",
+      "api.database.models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1935,11 +1940,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "/Users/amir/projects/handlemycase/hmc-backend/Api.Database.Models/Api.Database.Models.csproj": {
-              "projectPath": "/Users/amir/projects/handlemycase/hmc-backend/Api.Database.Models/Api.Database.Models.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -1977,6 +1978,10 @@
           "MySql.EntityFrameworkCore": {
             "target": "Package",
             "version": "[5.0.8, )"
+          },
+          "api.database.models": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [
