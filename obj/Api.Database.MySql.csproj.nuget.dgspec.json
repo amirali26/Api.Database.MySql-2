@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/amir/projects/handlemycase/hmc-backend/Api.Database.MySql/Api.Database.MySql.csproj": {}
+  },
+  "projects": {
+    "/Users/amir/projects/handlemycase/hmc-backend/Api.Database.Models/Api.Database.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/amir/projects/handlemycase/hmc-backend/Api.Database.Models/Api.Database.Models.csproj",
+        "projectName": "Api.Database.Models",
+        "projectPath": "/Users/amir/projects/handlemycase/hmc-backend/Api.Database.Models/Api.Database.Models.csproj",
+        "packagesPath": "/Users/amir/.nuget/packages/",
+        "outputPath": "/Users/amir/projects/handlemycase/hmc-backend/Api.Database.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/amir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "HotChocolate.Abstractions": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/amir/projects/handlemycase/hmc-backend/Api.Database.MySql/Api.Database.MySql.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/amir/projects/handlemycase/hmc-backend/Api.Database.MySql/Api.Database.MySql.csproj",
+        "projectName": "Api.Database.MySql",
+        "projectPath": "/Users/amir/projects/handlemycase/hmc-backend/Api.Database.MySql/Api.Database.MySql.csproj",
+        "packagesPath": "/Users/amir/.nuget/packages/",
+        "outputPath": "/Users/amir/projects/handlemycase/hmc-backend/Api.Database.MySql/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/amir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/amir/projects/handlemycase/hmc-backend/Api.Database.Models/Api.Database.Models.csproj": {
+                "projectPath": "/Users/amir/projects/handlemycase/hmc-backend/Api.Database.Models/Api.Database.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.7.5.8, )"
+            },
+            "AWSSDK.Pinpoint": {
+              "target": "Package",
+              "version": "[3.7.4.6, )"
+            },
+            "AWSSDK.SQS": {
+              "target": "Package",
+              "version": "[3.7.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
