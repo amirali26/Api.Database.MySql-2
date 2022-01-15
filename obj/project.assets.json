@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Api.Database.Models/1.0.0": {
+      "Api.Database.Models/1.0.1": {
         "type": "package",
         "dependencies": {
           "HotChocolate.Abstractions": "12.0.1"
@@ -638,13 +638,13 @@
     }
   },
   "libraries": {
-    "Api.Database.Models/1.0.0": {
-      "sha512": "s3bD6LAmy7qpUJyFjSjoMreXIoNdIbTgp68LDdYc0N2ukpzs16v1hnD5MQa/vbqARGaP++SayL24LCjQ88HMeA==",
+    "Api.Database.Models/1.0.1": {
+      "sha512": "tLaN+caEFuYtH2ajZI7p2IhiE6vjDcpnc7z2/+fHEq5I1MXzzdPKL39+hpVqzyC1dHANA1gpXV3OWhnmfmACqA==",
       "type": "package",
-      "path": "api.database.models/1.0.0",
+      "path": "api.database.models/1.0.1",
       "files": [
         ".nupkg.metadata",
-        "api.database.models.1.0.0.nupkg.sha512",
+        "api.database.models.1.0.1.nupkg.sha512",
         "api.database.models.nuspec",
         "lib/net5.0/Api.Database.Models.dll"
       ]
@@ -1909,17 +1909,17 @@
       "AWSSDK.Core >= 3.7.5.8",
       "AWSSDK.Pinpoint >= 3.7.4.6",
       "AWSSDK.SQS >= 3.7.2.6",
+      "Api.Database.Models >= 1.0.1",
       "Microsoft.EntityFrameworkCore >= 5.0.11",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.11",
-      "MySql.EntityFrameworkCore >= 5.0.8",
-      "api.database.models >= 1.0.0"
+      "MySql.EntityFrameworkCore >= 5.0.8"
     ]
   },
   "packageFolders": {
     "/Users/amir/.nuget/packages/": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
       "projectUniqueName": "/Users/amir/projects/handlemycase/hmc-backend/Api.Database.MySql/Api.Database.MySql.csproj",
       "projectName": "Api.Database.MySql",
@@ -1965,6 +1965,10 @@
             "target": "Package",
             "version": "[3.7.2.6, )"
           },
+          "Api.Database.Models": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[5.0.11, )"
@@ -1978,10 +1982,6 @@
           "MySql.EntityFrameworkCore": {
             "target": "Package",
             "version": "[5.0.8, )"
-          },
-          "api.database.models": {
-            "target": "Package",
-            "version": "[1.0.0, )"
           }
         },
         "imports": [

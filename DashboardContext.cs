@@ -11,6 +11,7 @@ namespace Api.Database.MySql
 
         public DbSet<User> Users { get; set; }
         public DbSet<AccountUserInvitation> AccountUserInvitations { get; set; }
+        public DbSet<AccountUserPermission> AccountUserPermissions { get; set; }
         public DbSet<Account> Accounts { get; set; }
         public DbSet<Request> Requests { get; set; }
         public DbSet<Client> Clients { get; set; }
