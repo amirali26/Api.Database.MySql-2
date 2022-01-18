@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Api.Database.Models/1.0.1-24": {
+      "Api.Database.Models/1.0.1-26": {
         "type": "package",
         "dependencies": {
           "HotChocolate.Abstractions": "12.0.1"
@@ -638,13 +638,13 @@
     }
   },
   "libraries": {
-    "Api.Database.Models/1.0.1-24": {
-      "sha512": "MN0dx2EcONwH6YBRtBE/nErV0JoY2pP0YaZiIn1V6ApXN1tUCBhEbmCUiAG6LXI8Ma7R5lo1hoDfu3szzEtgTQ==",
+    "Api.Database.Models/1.0.1-26": {
+      "sha512": "IZR7RSwkGNL7GA4/DDT/5TFnoq7uQkWIZylpxST1QwdVjli7RlFrVavG9/ETcTeVXuKLDSit/9pQISlKVdlMlA==",
       "type": "package",
-      "path": "api.database.models/1.0.1-24",
+      "path": "api.database.models/1.0.1-26",
       "files": [
         ".nupkg.metadata",
-        "api.database.models.1.0.1-24.nupkg.sha512",
+        "api.database.models.1.0.1-26.nupkg.sha512",
         "api.database.models.nuspec",
         "lib/net5.0/Api.Database.Models.dll"
       ]
@@ -1909,7 +1909,7 @@
       "AWSSDK.Core >= 3.7.5.8",
       "AWSSDK.Pinpoint >= 3.7.4.6",
       "AWSSDK.SQS >= 3.7.2.6",
-      "Api.Database.Models >= 1.0.1-24",
+      "Api.Database.Models >= 1.0.1-26",
       "Microsoft.EntityFrameworkCore >= 5.0.11",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.11",
       "MySql.EntityFrameworkCore >= 5.0.8"
@@ -1967,7 +1967,7 @@
           },
           "Api.Database.Models": {
             "target": "Package",
-            "version": "[1.0.1-24, )"
+            "version": "[1.0.1-26, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
