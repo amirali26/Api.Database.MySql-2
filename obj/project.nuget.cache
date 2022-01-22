@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NJHuJSYoE/TigYhfKSwxpnoBLXiOwGlexJ1od5aZTXg9ThIOp/O59FBzBq5wg+XMmyK34gUef2sGJmgBiUyWAg==",
+  "dgSpecHash": "miXFdhyRw3fNQUdCzxng57R0wfkqYGPRsw9NHjHpDkTkbgDbTy8GKGW2jx9OZeTslJ11WLRniQk3oRd6LUuvrA==",
   "success": true,
   "projectFilePath": "/Users/amir/projects/handlemycase/hmc-backend/Api.Database.MySql/Api.Database.MySql.csproj",
   "expectedPackageFiles": [
-    "/Users/amir/.nuget/packages/api.database.models/1.0.1-26/api.database.models.1.0.1-26.nupkg.sha512",
+    "/Users/amir/.nuget/packages/api.database.models/1.0.1-27/api.database.models.1.0.1-27.nupkg.sha512",
     "/Users/amir/.nuget/packages/awssdk.core/3.7.5.8/awssdk.core.3.7.5.8.nupkg.sha512",
     "/Users/amir/.nuget/packages/awssdk.pinpoint/3.7.4.6/awssdk.pinpoint.3.7.4.6.nupkg.sha512",
     "/Users/amir/.nuget/packages/awssdk.sqs/3.7.2.6/awssdk.sqs.3.7.2.6.nupkg.sha512",
