@@ -20,6 +20,10 @@ namespace Api.Database.MySql
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.HasSequence<int>("OrderNumbers");
+            modelBuilder.Entity<Request>()
+                .Property(r => r.OrderNumber)
+                .HasDefaultValue("NEXT VALUE FOR shared.OrderNumbers");
             modelBuilder.Entity<AreasOfPractice>()
                 .HasData(
                     new AreasOfPractice
