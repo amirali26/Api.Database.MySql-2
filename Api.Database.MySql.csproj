@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Api.Database.Models" Version="1.0.1-33" />
+        <PackageReference Include="Api.Database.Models" Version="1.0.1-34" />
         <PackageReference Include="AWSSDK.Core" Version="3.7.5.8" />
         <PackageReference Include="AWSSDK.Pinpoint" Version="3.7.4.6" />
         <PackageReference Include="AWSSDK.SQS" Version="3.7.2.6" />
@@ -18,9 +18,4 @@
         </PackageReference>
         <PackageReference Include="MySql.EntityFrameworkCore" Version="5.0.8" />
     </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\Api.Database.Models\Api.Database.Models.csproj" />
-    </ItemGroup>
-
 </Project>
