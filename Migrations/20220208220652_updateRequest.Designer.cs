@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Api.Database.MySql.Migrations
 {
     [DbContext(typeof(DashboardContext))]
-    [Migration("20220208214350_renameNumber")]
-    partial class renameNumber
+    [Migration("20220208220652_updateRequest")]
+    partial class updateRequest
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -244,8 +244,8 @@ namespace Api.Database.MySql.Migrations
                     b.Property<bool>("PhoneAppointment")
                         .HasColumnType("tinyint(1)");
 
-                    b.Property<string>("RequestId")
-                        .HasColumnType("varchar(767)");
+                    b.Property<int?>("RequestId")
+                        .HasColumnType("int");
 
                     b.Property<int>("Status")
                         .HasColumnType("nvarchar(24)");
@@ -269,9 +269,9 @@ namespace Api.Database.MySql.Migrations
 
             modelBuilder.Entity("Api.Database.Models.Request", b =>
                 {
-                    b.Property<string>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("varchar(767)");
+                        .HasColumnType("int");
 
                     b.Property<string>("AreaInRegion")
                         .HasColumnType("text");
@@ -294,8 +294,8 @@ namespace Api.Database.MySql.Migrations
                     b.Property<string>("Region")
                         .HasColumnType("text");
 
-                    b.Property<string>("RequestNumber")
-                        .HasColumnType("varchar(767)");
+                    b.Property<int>("RequestNumber")
+                        .HasColumnType("int");
 
                     b.Property<int?>("TopicId")
                         .HasColumnType("int");
