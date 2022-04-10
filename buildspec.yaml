@@ -10,10 +10,10 @@ phases:
   build:
     commands:
       - echo Build dotnet application
-      - dotnet build --configuration Release
+      - dotnet build --configuration Release -p:Version=1.0.$CODEBUILD_BUILD_NUMBER
       - echo Pack nuget package
-      - dotnet pack -c Release --version-suffix $CODEBUILD_BUILD_NUMBER
+      - dotnet pack -c Release
   post_build:
     commands:
       - echo Nuget push
-      - dotnet nuget push bin/Release/Api.Database.MySql.1.0.1-$CODEBUILD_BUILD_NUMBER.nupkg --source helpmycase/helpmycase
+      - dotnet nuget push bin/Release/Api.Database.MySql.1.0.$CODEBUILD_BUILD_NUMBER.nupkg --source helpmycase/helpmycase
