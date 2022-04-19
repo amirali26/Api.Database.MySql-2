@@ -14,8 +14,7 @@ namespace Api.Database.MySql
 
         private static readonly string pinpointAppId = "1eabd9c3c1fb4b6ca86c6963548e2494";
 
-        private static readonly string queueUrl =
-            "https://sqs.eu-west-1.amazonaws.com/460234074473/HandleMyCaseEmailService-EmailServiceQueue01EA8C78-1CHTN8ZULBUKN.fifo";
+        private static readonly string queueUrl = "https://sqs.eu-west-1.amazonaws.com/619680812856/HandleMyCaseEmailService-EmailServiceQueue01EA8C78-2ahcRmvOyi1I.fifo";
 
         static AWSHelper()
         {
